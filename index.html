@@ -2,70 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hermes Google Connector</title>
-<meta name="description" content="Hermes Google Connector is a private, single-user tool that connects a personal Hermes Agent install to its owner's own Google Workspace data.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://zkumar.github.io/HermesApp/">
+<meta http-equiv="refresh" content="0; url=/HermesApp/">
 <style>
-  :root { color-scheme: light dark; }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; padding: 3rem 1.5rem;
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 44rem; margin-inline: auto;
-    background: #fbfbfd; color: #1c1c1e;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { background: #131316; color: #e8e8ea; }
-    a { color: #7cb8ff; }
-    .card { background: #1c1c20; border-color: #2c2c31; }
-    code { background: #232328; }
-  }
-  h1 { font-size: 1.75rem; letter-spacing: -0.02em; margin: 0 0 .25rem; }
-  .sub { color: #6b6b70; margin: 0 0 2rem; font-size: 1.02rem; }
-  h2 { font-size: 1.02rem; text-transform: uppercase; letter-spacing: .07em; color: #6b6b70; margin: 2.25rem 0 .6rem; font-weight: 600; }
-  p, li { margin: .5rem 0; }
-  ul { padding-left: 1.15rem; }
-  .card { border: 1px solid #e2e2e6; border-radius: 10px; padding: 1rem 1.15rem; background: #fff; margin: 1rem 0; }
-  code { background: #f0f0f3; padding: .1em .35em; border-radius: 4px; font-size: .9em; }
-  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #e2e2e6; color: #6b6b70; font-size: .88rem; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 34rem; margin: 18vh auto 0; padding: 0 1.5rem; color: #1c1c1e; }
+  @media (prefers-color-scheme: dark) { body { background: #131316; color: #e8e8ea; } a { color: #7cb8ff; } }
   a { color: #0a6cff; }
 </style>
 </head>
 <body>
-
-<h1>Hermes Google Connector</h1>
-<p class="sub">A private, single-user integration between a personal Hermes Agent installation and its owner's own Google account.</p>
-
-<div class="card">
-  <p><strong>This is not a public product.</strong> It is a self-hosted personal automation tool operated by one individual for their own Google data. There is no sign-up, no third-party users, and no server that stores your data.</p>
-</div>
-
-<h2>What it does</h2>
-<p>Hermes Google Connector authorizes a locally-run agent on the owner's own machine to read and organize the owner's Google Workspace content so it can be summarized and filed into the owner's private notes:</p>
-<ul>
-  <li>Reading Gmail messages to produce a daily digest of items worth the owner's attention</li>
-  <li>Listing Google Calendar events to prepare a daily schedule brief</li>
-  <li>Reading Google Docs and Sheets the owner already owns, to summarize them</li>
-  <li>Listing files in the owner's own Google Drive</li>
-  <li>Reading the owner's own YouTube channel data</li>
-  <li>Reading the owner's own Google Contacts</li>
-  <li>Creating documents in the owner's own Google Drive and writing to the owner's own spreadsheets when the owner explicitly asks for it</li>
-</ul>
-<p>All processing happens on the owner's machine. Access tokens are stored in a local file with owner-only permissions (<code>~/.hermes/google_token.json</code>) and can be revoked at any time.</p>
-
-<h2>Who can use it</h2>
-<p>Exactly one person: the owner of the Google account that authorized it. The application is not distributed, not published to any store, and has no mechanism for onboarding additional users. It falls under Google's <em>personal use</em> exemption (fewer than 100 users), which is why it has not been submitted for OAuth verification.</p>
-
-<h2>Data handling</h2>
-<p>The tool does not run a backend service. It is not a multi-tenant application. No Google user data is transmitted to, stored on, or processed by any server operated by this project. See the <a href="./privacy.html">privacy policy</a> for specifics on what is stored and how to delete it.</p>
-
-<h2>Revoking access</h2>
-<p>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, which immediately invalidates the stored refresh token. The local token file can also simply be deleted.</p>
-
-<footer>
-  <p>Hermes Google Connector &middot; personal, non-commercial tool &middot; <a href="./privacy.html">Privacy Policy</a></p>
-  <p>Contact: <a href="mailto:vzharotia@gmail.com">vzharotia@gmail.com</a></p>
-</footer>
-
+<p><strong>Hermes Google Connector</strong></p>
+<p>This app's pages live at <a href="/HermesApp/">zkumar.github.io/HermesApp/</a>.</p>
+<p>Privacy policy: <a href="/HermesApp/privacy.html">zkumar.github.io/HermesApp/privacy.html</a></p>
 </body>
 </html>
